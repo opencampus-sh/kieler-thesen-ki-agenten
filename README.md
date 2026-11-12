@@ -40,6 +40,8 @@ Die **Kieler Thesen** benennen die Risiken, vor allem aber die Stellen, an denen
 
 Die Thesen sind aus der Veranstaltung „Vom Werkzeug zum Akteur – KI-Agenten und ihre Folgen für Wirtschaft, Recht und Gesellschaft“ am 27. Oktober 2026 in der ZBW in Kiel hervorgegangen. Fünf Impulse und eine Podiumsdiskussion haben einen ersten Entwurf geprüft, geschärft und an einigen Stellen widerlegt.
 
+Die Thesen sind zugleich ein Produkt der Community von [coding.waterkant](https://coding.waterkant.sh), der Machine-Learning-Initiative von opencampus.sh. Viele der Mitwirkenden sind Teil dieser Community oder begleiten sie seit Jahren, so auch Dirk Schrödter, unter dessen Schirmherrschaft das jährliche coding.waterkant-Codingcamp steht.
+
 Die Veranstaltung wurde von opencampus.sh, dem Kiel Institut für Weltwirtschaft und der ZBW – Leibniz-Informationszentrum Wirtschaft ausgerichtet. Die Thesen werden von den Mitzeichnenden persönlich getragen. Die veranstaltenden Institutionen sind nicht Herausgeber der Thesen.
 
 ## Mitzeichnende

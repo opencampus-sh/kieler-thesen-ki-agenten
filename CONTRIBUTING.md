@@ -24,7 +24,7 @@ Der Ordner [`gestaltung/`](gestaltung/) sammelt Hintergründe und konkrete Vorsc
 Du möchtest die Thesen unterstützen?
 
 - **Mit GitHub-Konto:** Trage Dich in [MITZEICHNENDE.md](MITZEICHNENDE.md) unter „Unterstützer:innen“ ein, mit Name, Funktion oder Institution und der Version, die Du mitzeichnest, und reiche das als Pull Request ein.
-- **Ohne GitHub-Konto:** Schreib eine E-Mail an [steffen@opencampus.sh](mailto:steffen@opencampus.sh). Wir tragen Dich dann ein.
+- **Ohne GitHub-Konto:** Schreib eine E-Mail an [team@coding.waterkant.sh](mailto:team@coding.waterkant.sh). Wir tragen Dich dann ein.
 
 ## Versionen
 
