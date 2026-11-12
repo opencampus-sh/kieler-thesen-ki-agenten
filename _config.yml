@@ -1,0 +1,33 @@
+# Konfiguration für GitHub Pages (Jekyll)
+title: Kieler Thesen
+description: Kieler Thesen zu einer positiven agentischen Zukunft
+lang: de
+baseurl: /kieler-thesen-ki-agenten
+repository: opencampus-sh/kieler-thesen-ki-agenten
+
+markdown: kramdown
+kramdown:
+  auto_ids: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: THESEN.md
+    values:
+      title: Die 15 Thesen
+
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  - jekyll-default-layout

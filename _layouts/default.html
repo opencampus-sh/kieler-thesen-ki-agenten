@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'de' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- assign page_title = page.title | default: site.description -%}
+  <title>{% if page.url == "/" %}{{ site.description }}{% else %}{{ page_title }} · {{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  {%- assign repo = 'https://github.com/' | append: site.repository -%}
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">Kieler Thesen</a>
+      <nav aria-label="Hauptnavigation">
+        {%- assign nav = "Thesen|/THESEN.html,Mitzeichnende|/MITZEICHNENDE.html,Gestaltung|/gestaltung/,Mitmachen|/mitmachen.html,Changelog|/CHANGELOG.html" | split: "," -%}
+        {%- for item in nav -%}
+          {%- assign parts = item | split: "|" -%}
+          <a href="{{ parts[1] | relative_url }}"{% if page.url == parts[1] %} aria-current="page"{% endif %}>{{ parts[0] }}</a>
+        {%- endfor -%}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap content">
+    {%- assign lic_abs = 'href="' | append: site.baseurl | append: '/LICENSE"' -%}
+    {%- assign github_vorlage = repo | append: '/tree/main/gestaltung/_vorlage' -%}
+    {{ content
+       | replace: lic_abs, 'href="__CCBY__"'
+       | replace: 'href="LICENSE"', 'href="__CCBY__"'
+       | replace: 'href="../LICENSE"', 'href="__CCBY__"'
+       | replace: '__CCBY__', 'https://creativecommons.org/licenses/by/4.0/deed.de'
+       | replace: 'CONTRIBUTING.md', 'mitmachen.html'
+       | replace: '.md"', '.html"'
+       | replace: '.md#', '.html#'
+       | replace: 'CONTRIBUTING.html', 'mitmachen.html'
+       | replace: 'href="gestaltung/_vorlage/"', 'href="__VORLAGE__"'
+       | replace: 'href="_vorlage/"', 'href="__VORLAGE__"'
+       | replace: '__VORLAGE__', github_vorlage }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Inhalte unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a>.
+        Diskutieren, widersprechen, mitzeichnen: <a href="{{ '/mitmachen.html' | relative_url }}">so geht’s</a>.</p>
+      <p><a href="{{ repo }}/blob/main/{% if page.path == 'mitmachen.md' %}CONTRIBUTING.md{% else %}{{ page.path }}{% endif %}">Diese Seite auf GitHub</a> ·
+        <a href="{{ repo }}/issues">Kommentare (Issues)</a> ·
+        <a href="{{ repo }}">Repository</a></p>
+    </div>
+  </footer>
+</body>
+</html>
