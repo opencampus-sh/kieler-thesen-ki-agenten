@@ -44,6 +44,8 @@ Die Thesen sind zugleich ein Produkt der Community von [Coding.Waterkant](https:
 
 Die Veranstaltung wurde von opencampus.sh, dem Kiel Institut für Weltwirtschaft und der ZBW – Leibniz-Informationszentrum Wirtschaft ausgerichtet. Die Thesen werden von den Mitzeichnenden persönlich getragen. Die veranstaltenden Institutionen sind nicht Herausgeber der Thesen.
 
+Programm, Mitwirkende und Folien der Veranstaltung findest Du in [VERANSTALTUNG.md](VERANSTALTUNG.md).
+
 ## Mitzeichnende
 
 Wer die Thesen mitträgt, steht in [MITZEICHNENDE.md](MITZEICHNENDE.md).
@@ -54,7 +56,7 @@ Die Thesen sind bewusst zugespitzt und laden zum Widerspruch ein. Du kannst
 
 - **kommentieren:** zu jeder These ein Issue eröffnen oder eine Diskussion starten,
 - **weiterentwickeln:** im Ordner [`gestaltung/`](gestaltung/) Hintergründe und konkrete Vorschläge ergänzen, bis hin zu Formulierungsentwürfen für Gesetze,
-- **mitzeichnen:** dich als Unterstützer:in eintragen.
+- **mitzeichnen:** dich in die Liste der Mitzeichnenden eintragen.
 
 Wie das im Einzelnen funktioniert, steht in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -63,11 +65,12 @@ Wie das im Einzelnen funktioniert, steht in [CONTRIBUTING.md](CONTRIBUTING.md).
 | Datei / Ordner | Inhalt |
 | --- | --- |
 | [`THESEN.md`](THESEN.md) | Die 15 Thesen mit Gestaltungsansätzen, offenen Fragen und nächsten Schritten |
-| [`MITZEICHNENDE.md`](MITZEICHNENDE.md) | Mitwirkende der Veranstaltung und Unterstützer:innen |
+| [`MITZEICHNENDE.md`](MITZEICHNENDE.md) | Wer die Thesen mitträgt |
+| [`VERANSTALTUNG.md`](VERANSTALTUNG.md) | Programm, Mitwirkende und Folien der Veranstaltung |
 | [`gestaltung/`](gestaltung/) | Hintergründe und konkrete Vorschläge zu einzelnen Thesen |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Wie man kommentiert, beiträgt und mitzeichnet |
 | [`CHANGELOG.md`](CHANGELOG.md) | Änderungen zwischen den Versionen |
 
 ## Lizenz
 
-Die Inhalte stehen unter der Lizenz [Creative Commons Namensnennung 4.0 International (CC BY 4.0)](LICENSE). Du darfst sie teilen und bearbeiten, solange du die Quelle nennst.
+Die Inhalte stehen, mit Ausnahme der Folien im Ordner `veranstaltung/`, unter der Lizenz [Creative Commons Namensnennung 4.0 International (CC BY 4.0)](LICENSE). Du darfst sie teilen und bearbeiten, solange du die Quelle nennst.

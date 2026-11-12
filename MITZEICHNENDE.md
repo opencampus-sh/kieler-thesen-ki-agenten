@@ -6,23 +6,15 @@ Wer hier steht, trägt die Thesen in der angegebenen Version persönlich mit. Mi
 
 Neue Versionen der Thesen werden nicht automatisch von allen Mitzeichnenden getragen. Bei jedem Eintrag steht deshalb die Version, die mitgezeichnet wurde.
 
-## Mitwirkende der Veranstaltung
-
-Personen, die mit einem Impuls, auf dem Podium oder in der Organisation an der Veranstaltung „Vom Werkzeug zum Akteur“ mitgewirkt haben.
-
-| Name | Funktion / Institution | Rolle | Version |
-| --- | --- | --- | --- |
-| Steffen Brandt | opencampus.sh | Impuls, Moderation des Podiums | 0.1 |
-| Dennis Trautwein | ProbeLab | Impuls | 0.1 |
-| Ulli Schmidt | Kiel Institut für Weltwirtschaft | Moderation des Programms | 0.1 |
-
-## Unterstützer:innen
-
-Personen, die nicht an der Veranstaltung mitgewirkt haben, die Thesen aber unterstützen.
-
 | Name | Funktion / Institution | Version |
 | --- | --- | --- |
-| | | |
+| Steffen Brandt | opencampus.sh | 0.1 |
+| Mansoor Koshan | Legal Cognition | 0.1 |
+| Sina Lücke | CAU Kiel | 0.1 |
+| Ulli Schmidt | Kiel Institut für Weltwirtschaft | 0.1 |
+| Dennis Trautwein | ProbeLab | 0.1 |
+
+Wie die Thesen entstanden sind und wer an der Veranstaltung mitgewirkt hat, steht in [VERANSTALTUNG.md](VERANSTALTUNG.md).
 
 ## Mitzeichnen
 
