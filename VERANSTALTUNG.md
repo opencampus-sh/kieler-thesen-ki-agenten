@@ -18,9 +18,9 @@ Die Kieler Thesen sind aus der Veranstaltung **„Vom Werkzeug zum Akteur – KI
 | Impuls | Referent:in |
 | --- | --- |
 | KI und Agenten – eine Einordnung | Sina Lücke (CAU Kiel) |
-| Das (fast) agentenoptimierte Unternehmen | Miriam Maibaum (AI READY / falkemedia) |
+| Das (fast) agentenoptimierte Unternehmen | Miriam Maibaum (AI Ready GmbH / falkemedia) |
 | Rechte von Agenten | Mansoor Koshan (Legal Cognition) |
-| Agentische Kommunikation | Dennis Trautwein (ProbeLab) |
+| Agentische Kommunikation | Dennis Trautwein (ProbeLab Analytics) |
 | KI-getriebene Anreize in Social Media und Parallelen bei Agenten | Steffen Brandt (opencampus.sh) |
 
 ### Podiumsdiskussion
@@ -33,7 +33,7 @@ Die Kieler Thesen sind aus der Veranstaltung **„Vom Werkzeug zum Akteur – KI
 
 ## Präsentation
 
-Die Folien der Impulse findest Du im Ordner [`veranstaltung/`](veranstaltung/).
+Die Folien der Impulse findest Du als **[PDF](veranstaltung/Vom-Werkzeug-zum-Akteur_Folien.pdf)** (16 MB) im Ordner [`veranstaltung/`](veranstaltung/).
 
 Die Folien sind von der [CC-BY-Lizenz](LICENSE) dieses Repositorys ausgenommen. Die Rechte liegen bei den jeweiligen Referent:innen.
 

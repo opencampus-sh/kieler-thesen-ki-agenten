@@ -12,7 +12,7 @@ Neue Versionen der Thesen werden nicht automatisch von allen Mitzeichnenden getr
 | Mansoor Koshan | Legal Cognition | 0.1 |
 | Sina Lücke | CAU Kiel | 0.1 |
 | Ulli Schmidt | Kiel Institut für Weltwirtschaft | 0.1 |
-| Dennis Trautwein | ProbeLab | 0.1 |
+| Dennis Trautwein | ProbeLab Analytics | 0.1 |
 
 Wie die Thesen entstanden sind und wer an der Veranstaltung mitgewirkt hat, steht in [VERANSTALTUNG.md](VERANSTALTUNG.md).
 

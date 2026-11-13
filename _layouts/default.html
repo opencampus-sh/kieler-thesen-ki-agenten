@@ -17,7 +17,7 @@
     <div class="wrap header-inner">
       <a class="brand" href="{{ '/' | relative_url }}">Kieler Thesen</a>
       <nav aria-label="Hauptnavigation">
-        {%- assign nav = "Thesen|/THESEN.html,Mitzeichnende|/MITZEICHNENDE.html,Gestaltung|/gestaltung/,Mitmachen|/mitmachen.html,Changelog|/CHANGELOG.html" | split: "," -%}
+        {%- assign nav = "Thesen|/THESEN.html,Mitzeichnende|/MITZEICHNENDE.html,Veranstaltung|/VERANSTALTUNG.html,Gestaltung|/gestaltung/,Mitmachen|/mitmachen.html,Changelog|/CHANGELOG.html" | split: "," -%}
         {%- for item in nav -%}
           {%- assign parts = item | split: "|" -%}
           <a href="{{ parts[1] | relative_url }}"{% if page.url == parts[1] %} aria-current="page"{% endif %}>{{ parts[0] }}</a>
