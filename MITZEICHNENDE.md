@@ -9,8 +9,6 @@ Neue Versionen der Thesen werden nicht automatisch von allen Mitzeichnenden getr
 | Name | Funktion / Institution | Version |
 | --- | --- | --- |
 | Steffen Brandt | opencampus.sh | 0.1 |
-| Mansoor Koshan | Legal Cognition | 0.1 |
-| Sina Lücke | CAU Kiel | 0.1 |
 | Ulli Schmidt | Kiel Institut für Weltwirtschaft | 0.1 |
 | Dennis Trautwein | ProbeLab Analytics | 0.1 |
 
